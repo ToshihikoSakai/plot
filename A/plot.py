@@ -14,11 +14,8 @@ with open(sys.argv[1], mode='r') as f:
         count.append(int(ls[1]))
         f1.append(float(ls[2]))
 
-f.close()
-
 print(model)
 print(f1)
-
 
 fig, ax1 = plt.subplots(1, 1, figsize=(10, 8))
 ax2 = ax1.twinx()
